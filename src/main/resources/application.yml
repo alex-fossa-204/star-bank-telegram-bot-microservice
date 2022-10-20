@@ -1,0 +1,4 @@
+kafka:
+  service:
+    enabler: true
+  bootstrapAddress: 127.0.0.1:9092
