@@ -1,2 +1,2 @@
-# Banking back-end Telegram bot microservice
+# Star Bank Telegram bot Microservice
 
