@@ -1,7 +1,6 @@
-package dev.alexfossa204.starbank.telegrambot.service.dto;
+package dev.alexfossa204.starbank.microservice.service.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import dev.alexfossa204.starbank.telegrambot.service.dto.UserDto;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

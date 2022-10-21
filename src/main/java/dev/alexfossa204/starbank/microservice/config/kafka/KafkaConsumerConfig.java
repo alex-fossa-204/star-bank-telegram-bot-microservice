@@ -1,6 +1,6 @@
-package dev.alexfossa204.starbank.telegrambot.config.kafka;
+package dev.alexfossa204.starbank.microservice.config.kafka;
 
-import dev.alexfossa204.starbank.telegrambot.service.dto.GeneratedVerificationCodeTopicMessage;
+import dev.alexfossa204.starbank.microservice.service.dto.GeneratedVerificationCodeTopicMessage;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.kafka.annotation.EnableKafka;

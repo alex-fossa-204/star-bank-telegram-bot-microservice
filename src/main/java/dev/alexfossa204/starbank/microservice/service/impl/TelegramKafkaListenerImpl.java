@@ -1,17 +1,17 @@
-package dev.alexfossa204.starbank.telegrambot.service.impl;
+package dev.alexfossa204.starbank.microservice.service.impl;
 
-import dev.alexfossa204.starbank.telegrambot.service.dto.GeneratedVerificationCodeTopicMessage;
-import dev.alexfossa204.starbank.telegrambot.service.dto.UserDto;
-import dev.alexfossa204.starbank.telegrambot.service.dto.TelegramMessage;
-import dev.alexfossa204.starbank.telegrambot.service.TelegramBotMessageService;
-import dev.alexfossa204.starbank.telegrambot.service.TelegramKafkaListener;
-import dev.alexfossa204.starbank.telegrambot.config.kafka.KafkaConstant;
+import dev.alexfossa204.starbank.microservice.service.dto.GeneratedVerificationCodeTopicMessage;
+import dev.alexfossa204.starbank.microservice.service.dto.UserDto;
+import dev.alexfossa204.starbank.microservice.service.dto.TelegramMessage;
+import dev.alexfossa204.starbank.microservice.service.TelegramBotMessageService;
+import dev.alexfossa204.starbank.microservice.service.TelegramKafkaListener;
+import dev.alexfossa204.starbank.microservice.config.kafka.KafkaConstant;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Component;
 
-import static dev.alexfossa204.starbank.telegrambot.config.kafka.KafkaConsumerConfig.*;
+import static dev.alexfossa204.starbank.microservice.config.kafka.KafkaConsumerConfig.*;
 
 @Component
 @RequiredArgsConstructor

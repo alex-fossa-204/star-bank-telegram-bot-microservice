@@ -1,4 +1,4 @@
-package dev.alexfossa204.starbank.telegrambot.config.kafka;
+package dev.alexfossa204.starbank.microservice.config.kafka;
 
 public class KafkaConstant {
 

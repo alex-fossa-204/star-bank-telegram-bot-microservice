@@ -1,9 +1,9 @@
-package dev.alexfossa204.starbank.telegrambot.service.impl;
+package dev.alexfossa204.starbank.microservice.service.impl;
 
-import dev.alexfossa204.starbank.telegrambot.config.telegram.VerificationCodeCrutchBot;
-import dev.alexfossa204.starbank.telegrambot.service.dto.TelegramMessage;
-import dev.alexfossa204.starbank.telegrambot.service.TelegramBotMessageService;
-import dev.alexfossa204.starbank.telegrambot.service.exception.TelegramBotException;
+import dev.alexfossa204.starbank.microservice.config.telegram.VerificationCodeCrutchBot;
+import dev.alexfossa204.starbank.microservice.service.dto.TelegramMessage;
+import dev.alexfossa204.starbank.microservice.service.TelegramBotMessageService;
+import dev.alexfossa204.starbank.microservice.service.exception.TelegramBotException;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.scheduling.annotation.Async;

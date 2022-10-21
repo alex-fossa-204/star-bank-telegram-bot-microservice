@@ -1,4 +1,4 @@
-package dev.alexfossa204.starbank.telegrambot.service.exception;
+package dev.alexfossa204.starbank.microservice.service.exception;
 
 public class ServiceException extends RuntimeException {
 

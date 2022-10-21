@@ -1,4 +1,4 @@
-package dev.alexfossa204.starbank.telegrambot.service.dto;
+package dev.alexfossa204.starbank.microservice.service.dto;
 
 import lombok.Builder;
 import lombok.Data;

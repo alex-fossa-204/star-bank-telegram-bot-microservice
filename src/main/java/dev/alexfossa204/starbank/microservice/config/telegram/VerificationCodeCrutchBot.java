@@ -1,4 +1,4 @@
-package dev.alexfossa204.starbank.telegrambot.config.telegram;
+package dev.alexfossa204.starbank.microservice.config.telegram;
 
 import org.springframework.stereotype.Component;
 import org.telegram.telegrambots.bots.TelegramLongPollingBot;
